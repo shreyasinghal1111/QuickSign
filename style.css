@@ -1,0 +1,40 @@
+.main
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.top,.bottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 20px 0px 20px 0px; */
+   
+}
+.canvas
+{
+    border: 1px solid black;
+
+}
+.block,input,button,select
+{
+    width: 80%;
+}
+.top>.block
+{
+    margin: 10px;
+    /* border: 1px solid violet; */
+}
+.bottom>button
+{
+    margin: 10px;
+}
+.block>p{
+    margin: 10px auto;
+    width: 50%;
+    /* border: 1px solid violet; */
+
+}
